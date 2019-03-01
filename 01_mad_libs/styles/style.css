@@ -1,0 +1,15 @@
+html {
+    background: #eee5e5;
+    color: #37392e;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #28afb0;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #19647e;
+    font-family: 'Montserrat', sans-serif;
+}
