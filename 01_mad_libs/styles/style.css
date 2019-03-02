@@ -2,6 +2,7 @@ html {
     background: #eee5e5;
     color: #37392e;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 a {
@@ -12,4 +13,27 @@ a {
 h1, h2, h3, h4, h5, h6 {
     color: #19647e;
     font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.submit {
+    color:#FFF;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border-radius: 5%;
+    background: #28afb0;
+}
+
+.madLibText {
+    border:1px double #37392e;
+    padding: 15px;
+}
+
+.userAnswer {
+    color:#19647e;
+    font-weight: bold;
 }
