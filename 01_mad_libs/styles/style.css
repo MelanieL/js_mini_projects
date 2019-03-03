@@ -1,3 +1,7 @@
+* {
+    outline: 1px solid red;
+}
+
 html {
     background: #eee5e5;
     color: #37392e;
@@ -11,21 +15,53 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #19647e;
     font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
+    color: #19647e;
     font-size: 80px;
 }
 
-.submit {
-    color:#FFF;
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.form_input {
+    display: flex;
+    flex-direction: row;
+}
+
+.input_box {
+    flex: 1;
+}
+
+.text_line {
+    background: none;
     border: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    border-radius: 5%;
+    border-bottom: 2px solid #37392e;
+    padding: 1% 3%;
+}
+
+.text_line:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #858a74;
+}
+
+.submit {
     background: #28afb0;
+    border: none;
+    border-radius: 5%;
+    color:#FFF;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-top: 5%;
+    padding: 10px 25px;
 }
 
 .madLibText {
@@ -36,4 +72,8 @@ h1 {
 .userAnswer {
     color:#19647e;
     font-weight: bold;
+}
+
+footer {
+    font-size: 18px;
 }

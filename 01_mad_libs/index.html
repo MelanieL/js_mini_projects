@@ -11,25 +11,34 @@
 <body>
 
     <header>
-        <h1>JS Mini Project 01 - Mad Libs!</h1>
+        <h1>JS Mini Project 01:</h1>
+        <h1>Mad Libs!</h1>
     </header>
 
     <main>
         <form>
 
-            <h3>You want a ridiculous mad lib? You've come to the right place!</h3>
-            <p>Fill in the blank fields below:</p>
+            <h3>A mad lib generator, with no particular theme.</h3>
 
-            <label for="noun">A noun:</label>
-            <input type="text" id="noun" name="noun" required>
-            
-            <label for="noun">An adjective:</label>
-            <input type="text" id="adjective" name="adjective" required>
-            
-            <label for="noun">A adverb:</label>
-            <input type="text" id="adverb" name="adverb" required>
+            <div class="form_input">
+                <div class="input_box">
+                    <h2><label for="noun">noun</label></h2>
+                    <input class="text_line" placeholder="person, place or thing" type="text" id="noun" name="noun" required>
+                </div>
+    
+                
+                <div class="input_box">
+                    <h2><label for="noun">adjective</label></h2>
+                    <input class="text_line" placeholder="big, small, pretty, etc." type="text" id="adjective" name="adjective" required>            
+                </div>
+                
+                <div class="input_box">
+                    <h2><label for="noun">adverb</label></h2>
+                    <input class="text_line" placeholder="very, a lot, just, etc." type="text" id="adverb" name="adverb" required>            
+                </div>
+            </div>
 
-            <input type="button" value="SUBMIT" class="submit" ">
+            <input type="button" value="GENERATE" class="submit">
 
         </form>
 
