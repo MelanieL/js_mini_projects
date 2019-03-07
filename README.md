@@ -1,4 +1,4 @@
-# JS Mini Projects
+# JS Mini Projects #
 
 A repo for some mini JS projects I'm working on. 
 
@@ -10,3 +10,8 @@ Also, here is a list of practice problems I've found online for any of you looki
 
 W3resource - https://www.w3resource.com/javascript-exercises/
 Advent of Code - https://adventofcode.com/
+
+## Project 01 - Mad Libs ##
+This project was taken from a HackerYou exercise. I created a basic Mad Libs game with their provided text, but then I decided to make it my own by adding some form validation and styling.
+
+
