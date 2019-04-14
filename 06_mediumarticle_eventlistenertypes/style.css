@@ -1,0 +1,12 @@
+.cube {
+    height: 100px;
+    width: 100px;
+}
+
+.cubePrimaryColour {
+    background: #19647e;
+}
+
+.cubeSecondaryColour {
+    background: #28afb0;
+}
