@@ -1,0 +1,17 @@
+html {
+    height: 130vh;
+}
+
+.cube {
+    margin-top:40vh;
+    height: 100px;
+    width: 100px;
+}
+
+.cubePrimaryColour {
+    background: #19647e;
+}
+
+.cubeSecondaryColour {
+    background: #28afb0;
+}
